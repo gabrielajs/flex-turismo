@@ -25,7 +25,7 @@
         margin: auto;
         width: 100%;
         min-width: 320px;
-        /*padding: 10px 15px;*/
+        padding: 10px 15px;
     }
     
     header {
@@ -39,7 +39,6 @@
     header .list-itens {
         display: flex;
         width: 100%;
-        max-width: 260px;
         justify-content: space-between;
         align-items: center;
     }
@@ -247,6 +246,12 @@
     @media(max-width: 992px) {
         .flex-container {
             flex-direction: column;
+        }
+        #titulo{
+            text-align: center;
+        }
+        .list-itens{
+            margin-top: 10px;
         }
         .apresentacao {
             flex-direction: column-reverse;

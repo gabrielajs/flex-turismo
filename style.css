@@ -256,9 +256,15 @@
         }
         .apresentacao {
             flex-direction: column-reverse;
+            height: auto;
         }
         .apresentacao .texto-apresentacao {
             width: 100%;
+            text-align: center;
+        }
+        .apresentacao .texto-apresentacao .btn {
+            margin: 0 auto;
+            margin-top: 15px;
         }
         #quem-somos {
             flex-direction: column-reverse;

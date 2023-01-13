@@ -107,6 +107,7 @@
     #quem-somos p {
         margin-bottom: 10px;
         width: 90%;
+        text-align: justify;
     }
     
     #quem-somos img {
@@ -268,6 +269,11 @@
         }
         #quem-somos {
             flex-direction: column-reverse;
+            
+        }
+        #quem-somos h2{
+            text-align: center;
+            display: block;
         }
         #quem-somos img {
             min-width: 320px;

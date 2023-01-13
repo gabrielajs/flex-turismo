@@ -279,6 +279,10 @@
             min-width: 320px;
             margin: auto;
         }
+        #servicos h2{
+            display: block;
+            text-align: center;
+        }
         .list-servicos {
             flex-direction: column;
         }

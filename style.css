@@ -279,7 +279,7 @@
             min-width: 320px;
             margin: auto;
         }
-        #servicos h2{
+        #servicos h2, #planos h2{
             display: block;
             text-align: center;
         }
@@ -295,7 +295,7 @@
             align-items: flex-start;
         }
         .list-plano .item-plano {
-            max-width: 90%;
+            /*max-width: 90%;*/
             margin: auto;
             width: 100%;
             margin-bottom: 20px;
